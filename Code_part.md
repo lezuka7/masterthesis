@@ -4,6 +4,7 @@ This files serves as a supplementary material and aims to explain the coding don
 ### Implementation of tests
 #### DM-test
 
+```
 DM.test =
 function(y_hat1,y_hat2,y,tau)
 {
@@ -37,6 +38,6 @@ function(y_hat1,y_hat2,y,tau)
     structure(list(statistic = stat, parameter = input, alternative = "two-sided test", 
                    p.value = pval, method = "Diebold-Mariano Test"))
 } 
-
+```
 
 
