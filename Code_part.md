@@ -3,8 +3,9 @@
 This files serves as a supplementary material and aims to explain the coding done with regards to the master thesis titled "". This file is private and should not be distributed accordingly
 ### Implementation of tests
 #### DM-test
+This section implements the DM test which is also available as an R package.
 
-```
+```Mako
 DM.test =
 function(y_hat1,y_hat2,y,tau)
 {
